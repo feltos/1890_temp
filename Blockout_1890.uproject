@@ -3,9 +3,23 @@
 	"EngineAssociation": "4.20",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Blockout_1890",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "HoudiniEngine",
+			"Enabled": false
+		},
+		{
+			"Name": "FMODStudio",
 			"Enabled": false
 		}
 	]
